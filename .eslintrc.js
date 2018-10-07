@@ -1,0 +1,24 @@
+module.exports = {
+  root: true,
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
+  env: {
+    node: true,
+  },
+  extends: [
+    'plugin:vue/essential',
+    '@vue/airbnb',
+  ],
+  rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'import/extensions': ['off', 'always', {
+      'js': 'never',
+      'vue': 'never'
+    }],
+  },
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
+};

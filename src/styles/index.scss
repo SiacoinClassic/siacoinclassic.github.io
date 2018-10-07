@@ -1,0 +1,47 @@
+@import './media.scss';
+
+.row {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 -.5em;
+}
+.row::before, .row::after {
+  display: table;
+  content: "";
+}
+.row::after {
+  clear: both;
+}
+.col {
+  padding: 0 .5em;
+}
+[class*=col-] {
+  float: left;
+  box-sizing: border-box;
+}
+.card {
+  margin-bottom: 1em;
+  border-radius: .5em;
+  border: 1px solid #ebeef5;
+  background-color: #fff;
+  overflow: hidden;
+  color: #303133;
+  transition: .3s;
+  .card-header {
+    padding: 2em;
+    padding-bottom: 1em;
+    box-sizing: border-box;
+    .clearfix {
+      span {
+        font-size: 1.4rem;
+        color: #f38030;
+      }
+    }
+  }
+  .card-body {
+    padding: 2em;
+  }
+}
+.card:hover {
+  box-shadow: 0 .4em 1em 0 rgba(0, 0, 0, .1);
+}
