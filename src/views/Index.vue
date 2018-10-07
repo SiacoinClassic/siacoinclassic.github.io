@@ -60,7 +60,7 @@
                     target="_blank"
                   >
                     <span>Github</span>
-                    <img src="@/assets/icons/core-softwares/github.svg"/>
+                    <img src="@/assets/icons/socials/github.svg"/>
                   </a>
                 </div>
               </div>
@@ -103,7 +103,7 @@
                     target="_blank"
                   >
                     <span>Github</span>
-                    <img src="@/assets/icons/core-softwares/github.svg"/>
+                    <img src="@/assets/icons/socials/github.svg"/>
                   </a>
                 </div>
               </div>
